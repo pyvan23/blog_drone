@@ -26,6 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'import_export',
+    'ckeditor',
     'blog',
 ]
 
@@ -89,6 +91,14 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#CK Editor config
+
+CKEDITOR_CONFIGS = {
+    'default': {
+        'width': '100%',
+        'height': 300,
+    },
+}
 
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
