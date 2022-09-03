@@ -129,7 +129,7 @@ JAZZMIN_SETTINGS = {
     "site_icon": None,
 
     # Welcome text on the login screen
-    "welcome_sign": "Bienvenido al Panel Admin",
+    "welcome_sign": "Ingresa tu Usuario y Contraseña",
 
     # Copyright on the footer
     "copyright": "Arte",
