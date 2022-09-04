@@ -114,7 +114,7 @@ JAZZMIN_SETTINGS = {
     "site_brand": "Drone Club",
 
     # Logo to use for your site, must be present in static files, used for brand on top left
-    "site_logo": None,
+    "site_logo": 'assets/favicon.ico',
 
     # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)
     "login_logo": None,
@@ -132,7 +132,17 @@ JAZZMIN_SETTINGS = {
     "welcome_sign": "Ingresa tu Usuario y Contraseña",
 
     # Copyright on the footer
-    "copyright": "Arte",
+    "copyright": "Drone Club Punta Alta",
+
+    # Utilidad para cambiar el estilo del panel admin
+    "show_ui_builder": True,
+
+    # Links to put along the top menu
+    "topmenu_links": [
+
+
+        {"name": "Blog Home", "url": "/", "new_window": False},
+    ],
 }
 
 #Jazzmin config tema y color

@@ -9,7 +9,6 @@ def home(request):
     posts = Post.objects.filter(estado=True)
     fecha = date.today()
     anio = fecha.strftime('%Y')
-    print(anio)
 
     if queryset:
         posts = Post.objects.filter(
