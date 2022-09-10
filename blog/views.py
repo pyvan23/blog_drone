@@ -27,3 +27,10 @@ def detalle_post(request, slug):
     post = get_object_or_404(Post, slug=slug)
     context = {'post':post}
     return render(request, 'post.html', context)
+
+def contact(request):
+    fecha = date.today()
+    anio = fecha.strftime('%Y')
+    titulo = 'Del Cielo Producciones'
+    context = {'titulo': titulo, 'anio': anio}
+    return render(request, 'contact.html', context)
