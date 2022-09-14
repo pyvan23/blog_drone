@@ -34,3 +34,6 @@ def contact(request):
     titulo = 'Del Cielo Producciones'
     context = {'titulo': titulo, 'anio': anio}
     return render(request, 'contact.html', context)
+
+def about(request):
+     return render(request, 'about.html')
