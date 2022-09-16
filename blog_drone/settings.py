@@ -185,3 +185,5 @@ STATICFILES_DIRS = [
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # config send email form
+
+LOGOUT_REDIRECT_URL = "/"
