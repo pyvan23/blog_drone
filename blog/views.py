@@ -36,4 +36,8 @@ def contact(request):
     return render(request, 'contact.html', context)
 
 def about(request):
-     return render(request, 'about.html')
+    fecha = date.today()
+    anio = fecha.strftime('%Y')
+    titulo = 'Sobre Nosotros...'
+    context = {'titulo': titulo, 'anio': anio}
+    return render(request, 'about.html', context)
