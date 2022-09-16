@@ -1,4 +1,4 @@
-from django.contrib import admin
+from django.contrib import admin, redirects
 from .models import Categoria, Autor, Post
 from import_export import resources
 from import_export.admin import ImportExportModelAdmin
